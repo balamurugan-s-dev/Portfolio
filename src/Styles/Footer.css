@@ -1,0 +1,89 @@
+.itis-footer{
+    color: var(--font-color);
+    background-color: var(--bg-color);
+    padding-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    transition: background 0.3s, color 0.3s;
+}
+
+.foot-container{
+    background-color: transparent;
+    width: 90%;
+}
+
+.foot-logo{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.foot-logo h2{
+    background-color: transparent;
+    font-size: 2.2rem;
+}
+
+.foot-logo span{
+    background-color: transparent;
+    color: red;
+}
+
+.hr-line{
+    border: rgba(28, 26, 26, 0.365) solid 1px;
+}
+
+.email-contact{
+    background-color: transparent;
+}
+
+.email-contact a{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.email-contact img{
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+}
+
+.copy-links{
+    background-color: transparent;
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.copy-links div, p{
+    background-color: transparent;
+}
+
+.links{
+    background-color: transparent;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.links div, a{
+    background-color: transparent;
+}
+
+.links a:hover{
+    color: rgb(253, 0, 0);
+}

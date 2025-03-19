@@ -1,0 +1,118 @@
+.itis-contact{
+    background-color: var(--bg-color);
+    color: var(--font-color);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.3s, color 0.3s;
+}
+
+.contact-title{
+    margin-top: 70px;
+    background-color: transparent;
+}
+
+.itis-contact h1{
+    background-color: transparent;
+    padding: 10px;
+    font-size: 2.6rem;
+    font-weight: 300;
+}
+
+.inner-content{
+    background-color: transparent;
+    line-height: 35px;
+    text-align: center;
+    width: 80ch;
+    margin-bottom: 50px;
+}
+
+.contact-mail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: transparent;
+
+}
+
+.contact-form{
+    background-color: transparent;
+}
+
+.input-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+}
+
+.input-box input{
+    color: var(--font-color);
+    background-color: transparent;
+    background-color: var(--secondary-color);
+    font-size: 1rem;
+    padding: 10px;
+    height: 60px;
+    width: 45%;
+    border-radius: 7px;
+    border: rgba(81, 79, 79, 0.833) solid 2px;
+}
+
+.chat-box{
+    background-color: transparent;
+}
+
+.chat-box textarea{
+    color: var(--font-color);
+    background-color: transparent;
+    background-color: var(--secondary-color);
+    backdrop-filter: blur(30px);
+    font-size: 1rem;
+    border: rgba(81, 79, 79, 0.833) solid 2px;
+    padding: 20px;
+    border-radius: 7px;
+    height: 250px;
+    width: 900px;
+}
+
+
+.captcha-container{
+    overflow: hidden;
+    background-color: transparent;
+    display: inline-block;
+}
+
+.submit-btn-div{
+    background-color: transparent;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-btn{
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    background-image: linear-gradient(90deg, rgb(123, 0, 255), rgb(223, 136, 53));
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    
+}
+
+.submit-btn:hover{
+    background-image: linear-gradient(150deg, rgb(123, 0, 255), rgb(223, 136, 53));
+}

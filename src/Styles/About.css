@@ -1,0 +1,272 @@
+.itis-about{
+    background-color: var(--bg-color);
+    color: var(--font-color);
+    width: 100%;
+    height: 110vh;
+    align-content: center;
+    transition: background 0.3s, color 0.3s;
+}
+
+.about-content{
+    background-color: transparent;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me p{
+    background-color: transparent;
+}
+
+.about-me h2{
+    background-color: transparent;
+    font-size: 1.9rem;
+    font-family: Georgia, serif;
+    font-weight: 100;
+}
+
+.flex-container{
+    background-color: transparent;
+    width: 1250px;
+    height: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.code-bench{
+    background-color: transparent;
+    height: 450px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.code-bench img{
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+}
+
+.deep-summary{
+    background-color: transparent;
+    padding-top: 20px ;
+    width: 70%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.deep-summary p{
+    background-color: transparent;
+    line-height: 30px;
+    font-family: Georgia, serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.sum{
+    background-color: transparent;
+}
+
+.skills{
+    background-color: transparent;
+    padding-top: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    position: relative;
+}
+
+.lang{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 812px;
+    height: 370px;
+    background-image: linear-gradient(90deg, rgba(123, 0, 255, 0.2), rgba(223, 136, 53, 0.2));
+    backdrop-filter: blur(30px);
+    clip-path: path("M 0,60    A 10,10 0,0,1    10,50 L 60,50     A 10,10 0,0,0    70,40 L 70,10     A 10,10 0,0,1    80,0 L 200,0    A 10,10 0,0,1    210,10 L 210,40    A 10,10 0,0,0    220,50 L 800,50    A 10,10 0,0,1    810,60 L 810,360    A 10,10 0,0,1    800,370 L 10,370    A 10,10 0,0,1    0,360 L 0,80 Z");
+}
+
+.lang button{
+    padding: 5px;
+    width: 110px;
+    margin-top: 5px;
+    font-size: 1rem;
+    border: none;
+    position: absolute;
+    background-color: transparent;
+    top: 0;
+    left: 85px;
+    cursor: pointer;
+}
+
+.lang-list{
+    color: #000;
+    margin-left: 40px;
+    background-color: transparent;
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    z-index: 5;
+}
+.lang-list p{
+    font-family: "poppins", sans-serif;
+    font-size: 1rem;
+    background-color: transparent;
+}
+
+.edu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 812px;
+    height: 370px;
+    background-image: linear-gradient(90deg, rgba(223, 136, 53, 0.2), rgba(255, 200, 0, 0.2));
+    backdrop-filter: blur(30px);
+    clip-path: path("M 0,60    A 10,10 0,0,1    10,50 L 310,50     A 10,10 0,0,0    320,40 L 320,10     A 10,10 0,0,1    330,0 L 480,0    A 10,10 0,0,1    490,10 L 490,40    A 10,10 0,0,0    500,50 L 800,50    A 10,10 0,0,1    810,60 L 810,360    A 10,10 0,0,1    800,370 L 10,370    A 10,10 0,0,1    0,360 L 0,80 Z");
+}
+
+.edu button{
+    padding: 5px;
+    width: 110px;
+    margin-top: 5px;
+    font-size: 1rem;
+    border: none;
+    position: absolute;
+    background-color: transparent;
+    top: 0;
+    left: 350px;
+    cursor: pointer;
+}
+
+.edu-list{
+    color: #000;
+    background-color: transparent;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    z-index: 5;
+}
+.edu-list p{
+    font-family: "poppins", sans-serif;
+    font-size: 1rem;
+    background-color: transparent;
+}
+
+.pro{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 812px;
+    height: 370px;
+    background-image: linear-gradient(90deg, rgba(223, 136, 53, 0.2), rgba(255, 0, 0, 0.2));
+    backdrop-filter: blur(30px);
+    clip-path: path("M 0,60    A 10,10 0,0,1    10,50 L 570,50     A 10,10 0,0,0    580,40 L 580,10     A 10,10 0,0,1    590,0 L 730,0    A 10,10 0,0,1    740,10 L 740,40    A 10,10 0,0,0    750,50 L 800,50    A 10,10 0,0,1    810,60 L 810,360    A 10,10 0,0,1    800,370 L 10,370    A 10,10 0,0,1    0,360 L 0,80 Z");
+}
+.pro button{
+    padding: 5px;
+    width: 110px;
+    margin-top: 5px;
+    font-size: 1rem;
+    border: none;
+    position: absolute;
+    background-color: transparent;
+    top: 0;
+    left: 605px;
+    cursor: pointer;
+}
+
+.pro-list{
+    color: #000;
+    background-color: transparent;
+    position: absolute;
+    top: 90px;
+    left: 40px;
+    z-index: 5;
+}
+.pro-list p{
+    font-family: "poppins", sans-serif;
+    font-size: 1rem;
+    background-color: transparent;
+}
+
+.btn1, .btn2, .btn3{
+    padding: 5px;
+    width: 110px;
+    font-size: 1rem;
+    border-radius: 20px;
+    color: var(--font-color);
+    border: var(--primary-color) solid 2px;
+    background-color: transparent;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.btn1:hover, .btn2:hover, .btn3:hover{
+    border-radius: 10px;
+}
+
+
+
+.tools-container{
+    background-color: transparent;
+    margin-top: 30px;
+    width: 1200px;
+    height: 120px;
+}
+
+.tools, .tools p{
+    background-color: transparent;
+}
+
+.tools-icon{
+    background-color: transparent;
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.tools-icon div{
+    background-color: transparent;
+    height: 55px;
+    width: 55px;
+}
+
+.tools-icon img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: rgba(70, 68, 68, 0.571) solid 2px;
+    border-radius: 6px;
+    width: 55px;
+    height: 55px;
+}

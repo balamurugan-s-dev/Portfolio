@@ -1,0 +1,23 @@
+:root {
+    --bg-color: #e3eff3ba;
+    --font-color: black;
+    --primary-color: rgba(33, 32, 32, 0.97);
+    --heading-color: rgb(32, 28, 28);
+    --capcha: light;
+    --workcard-color: rgba(28, 28, 28, 0.553);
+    --secondary-color: rgb(234, 239, 246);
+}
+
+.dark-mode{
+    --font-color: #fff;
+    --bg-color: #070418;
+    --primary-color: rgba(255, 255, 255, 0.97);
+    --heading-color: #fff;
+    --capcha: dark;
+    --workcard-color: rgba(240, 236, 236, 0.644);
+    --secondary-color: #1c124b52;
+}
+
+.main-app{
+    position: relative;
+}
